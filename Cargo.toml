@@ -1,0 +1,11 @@
+[package]
+name = "osdev"
+version = "0.1.0"
+authors = ["Hirotada Kiriyama <painapoo@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+panic-abort = "0.3.1"
+
+[package.metadata.cargo-xbuild]
+sysroot_path = "../xbuild_sysroot"
